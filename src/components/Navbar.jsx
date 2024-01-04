@@ -195,6 +195,15 @@ const Navbar = () => {
             </NavLink>
           </li>
 
+          <li>
+            <NavLink
+              className="navbar-link"
+              onClick={() => setOpenMenu(false)}
+              to="/AdminLogin">
+              Login
+            </NavLink>
+          </li>
+
 
         </ul>
         {/* //nav icon */}

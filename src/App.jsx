@@ -10,6 +10,8 @@ import Footer from "./components/Footer";
 import GoToTop from "./components/GoToTop";
 import Header from "./components/Header";
 
+import AdminDashboard from "./AdminDashboard";
+import AdminLogin from "./AdminLogin";
 import Career from "./Career";
 import ContactUs from "./ContactUs";
 import DigitalMarketing from "./DigitalMarketing";
@@ -17,6 +19,8 @@ import OurWork from "./OurWork";
 import Test from "./Test";
 import Thanks from "./Thanks";
 import WhoWeAre from "./WhoWeAre";
+
+
 
 
 
@@ -65,9 +69,8 @@ const App = () => {
           <Route path="/ContactUs" element={<ContactUs />} />
           <Route path="/DigitalMarketing" element={<DigitalMarketing />} />
           <Route path="/Thanks" element={<Thanks />} />
-
-
-
+          <Route path="/AdminLogin" element={<AdminLogin />} />
+          <Route path="/AdminDashboard" element={<AdminDashboard />} />
 
 
           <Route path="/Test" element={<Test />} />
